@@ -3969,14 +3969,13 @@ class Dispatcher {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../">Richard Márquez</a>
+          <a class="navbar-brand" href="../">Brand</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-                <li><a href="../index.html#contact">Contacto</a></li>
-                <li><a href="../index.html#about">Acerca de</a></li>
-		<li><a href="../index.html#pubs">Publicaciones y Asesorías</a></li>
-                <li class="active"><a href="index.php?bib=mispubs.bib">Publicaciones (RESET)</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="active"><a href="index.php?bib=mispubs.bib">Publications (RESET)</a></li>
           </ul>
         </div>
       </div>
