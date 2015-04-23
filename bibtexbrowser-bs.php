@@ -3940,7 +3940,7 @@ class Dispatcher {
     <meta name="generator" content="bibtexbrowser v20140918" />
     <link rel="icon" href="../favicon.ico">
 
-    <title><?php echo $_GET[Q_FILE].Q_ORGANIZATION; ?></title>
+    <title><?php echo $_GET[Q_FILE]." ".Q_ORGANIZATION; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
