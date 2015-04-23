@@ -124,6 +124,7 @@ function bibtexbrowser_configure($key, $value) {
 @define('Q_YEAR_PAGE', 'year_page');
 @define('Q_FILE', 'bib');
 @define('Q_AUTHOR', 'author');
+@define('Q_ORGANIZATION', '- Richard Márquez - Universidad de Los Andes'); 
 @define('Q_AUTHOR_PAGE', 'author_page');
 @define('Q_TAG', 'keywords');
 @define('Q_TAG_PAGE', 'keywords_page');
@@ -3939,7 +3940,7 @@ class Dispatcher {
     <meta name="generator" content="bibtexbrowser v20140918" />
     <link rel="icon" href="../favicon.ico">
 
-    <title><?php echo $_GET[Q_FILE]; ?> - Richard Márquez - Universidad de Los Andes</title>
+    <title><?php echo $_GET[Q_FILE].Q_ORGANIZATION; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
